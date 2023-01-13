@@ -1,0 +1,48 @@
+  922  cd secao-01-unix-shell-e-git/
+  933  mkdir new_git_test_skills
+  934  cd new_git_test_skills/
+  935  git init
+  937  git init
+  939  git branch all
+  940  git branc -a
+  941  git branch -a
+  942  git status
+  945  git add .
+  946  git commit -m "First commit"
+  947  git checkout -b helloworld
+  948  git checkout main
+  949  git branch
+  952  git clone git@github.com:oliveiraxand/trybe-exercicios.git
+  954  git sttus
+  955  git status
+  956  git clone git@github.com:oliveiraxand/trybe-exercicios.git
+  958  rm -rf .git
+  960  git clone git@github.com:oliveiraxand/trybe-exercicios.git
+  961  git init
+  963  git remote add origin git@github.com:oliveiraxand/trybe-exercicios.git
+  964  git pull
+  965  git checkout main -f
+  966  git status
+  969  git branch --set-upstream-to origin/master
+  970  git push -u
+  972  git add .
+  973  git commit -m "First commit" "Sync commit"
+  974  git commit -m "First commit"
+  975  git pull
+  976  git branch -a
+  977  git merge remotes/origin/main
+  979  git status
+  980  git push
+  985  cd secao-01-unix-shell-e-git/
+  999  git push
+ 1000  git add .
+ 1001  git commit -m "Delete unnecessary directories"
+ 1002  git push
+ 1003  git branch
+ 1007  cd secao-01-unix-shell-e-git/
+ 1008  cd git_test_skills/
+ 1009  history | tail -15 | grep "git"
+ 1010  history | tail -30 | grep "git"
+ 1011  history | tail -99 | grep "git"
+ 1012  history | tail -96 | grep "git"
+ 1013  history | tail -96 | grep "git" | cat > log.txt
